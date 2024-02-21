@@ -1,0 +1,47 @@
+# Carpeta bin y obj generada por la compilación
+bin/
+obj/
+
+# Archivos de caché y de compilación
+[Tt]humbs.db
+*.log
+*.vspscc
+*.pidb
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Carpeta de herramientas NuGet
+packages/
+
+# Archivos de compilación de Visual Studio
+*.VisualState.xml
+*.iobj
+*.ipdb
+*.pdb
+*.log
+*.vspx
+*.vsp
+
+# Carpetas de Test Explorer
+TestResults/
+
+# Carpeta de análisis de código
+*.opendb
+
+# Archivos temporales de Rider
+.idea/
+*.sln.iml
+*.ide
+
+# Archivos de compilación de Rider
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Archivos de respaldo de Rider
+*.swp
+*~
