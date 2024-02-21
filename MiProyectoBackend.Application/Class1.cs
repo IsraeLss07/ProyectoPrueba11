@@ -1,6 +1,17 @@
-﻿namespace MiProyectoBackend.Application;
+﻿namespace MiProyectoBackend.Application{
+    public class UserService
+    {
+        private readonly IUserRepository _userRepository;
 
-public class Class1
-{
+        public UserService(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
 
+        public List<User> GetAllUsers()
+        {
+            return _userRepository.GetAll();
+        }
+    }
+    }
 }
